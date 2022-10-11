@@ -1,0 +1,53 @@
+body.dark-theme {
+  --first-color: hsl(var(--hue), var(--sat),75%);
+  --title-color: hsl(60, 1%, 39%);
+  --text-color: hsl(var(--hue), 4%,80%);
+  --body-color: hsl(var(--hue), 8%, 13%);
+  --container-color: hsl(var(--hue), 8%, 16%);
+  --scroll-bar-color: hsl(var(--hue), 4%,32%);
+  --scroll-thumb-color: hsl(var(--hue), 4%,24%);
+}
+body.dark-theme .category__container .images {
+  background-color: gray;
+  height: 80px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+body.dark-theme .scroll-header {
+  box-shadow: 0 2px 4px rgba(118, 115, 115, 0.861);
+}
+body.dark-theme .nav__compt-login {
+  color: #fff;
+}
+body.dark-theme .nav__compt-login:hover {
+  color: #000;
+  background-color: #fff;
+}
+body.dark-theme .nav__compt-signup {
+  color: #fff;
+}
+body.dark-theme .nav__compt-signup:hover {
+  color: #000;
+  background-color: #fff;
+}
+body.dark-theme header .nav .nav__list li a {
+  color: #fff;
+}
+body.dark-theme .signup-body .nav__compt-login {
+  color: #fff;
+}
+body.dark-theme .signup-body .nav__compt-login:hover {
+  color: #000;
+  background-color: #fff;
+}
+body.dark-theme .signup-body .nav__compt-signup {
+  color: #000;
+  background-color: #fff;
+}
+
+/*===========Button Dark/Light===============*/
+.change-theme {
+  color: var(--title-color);
+  font-size: 1.8rem;
+  cursor: pointer;
+}
